@@ -14,7 +14,7 @@ import Footer from './components/footer'
 
 
 
-class App extends React.Component {
+class Root extends React.Component {
   render() {
     return (
       <div>
@@ -31,9 +31,9 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Root;
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('app')
+  <Root />,
+  document.getElementById('root')
 );
